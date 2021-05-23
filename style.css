@@ -1,4 +1,4 @@
-*{
+* {
  box-sizing: border-box;
  margin: 0;
  padding:0;
@@ -6,26 +6,38 @@
 
 .frontpage-img{
     position: absolute;
+    border: 0;
+    margin: 0;
     width: 100%;
 
+}
+
+main{
+    position: relative;
+    padding: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
-    position: relative;
-    color:green;
-    margin-bottom: 200px;
+    color:white;
+    font-size: 180px;
+ 
 }
 
 h2{
-    position: relative;
-    color: white;
+    color: rgb(202, 48, 48);
     
+}
 
+.get_started{
+    width: 100px;
 }
 
 header{
+    position: relative;
     display: flex;
     width: 100%;
     position: absolute;
-    color: purple;
+    background-color: rgb(14,14,14,0.5) ;
 }
