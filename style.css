@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
 * {
  margin: 0;
  padding:0;
+ font-family:'PT Sans Narrow' ;
+}
+
+body{
+    margin: none;
 }
 
 .frontpage-img{
     position: absolute;
     width: 100%;
+    
     
 
 }
@@ -19,7 +28,7 @@ header{
   display: flex;
   justify-content:right;
   align-items: center;
-  height: 30px;
+  height: 40px;
   background-color: rgb(14,14,14,0.5) ;
   
   
@@ -28,14 +37,17 @@ header{
 
 main{
     position: relative;
-    padding: 500px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    
 }
 
 h1{
     color:white;
     font-size: 180px;
+    
  
 }
 
@@ -48,3 +60,14 @@ h2{
     width: 100px;
 }
 
+
+
+.log_in{
+    color: white;
+    background-color: #ef6351;
+    border:none;
+    margin-right: 100px;
+    padding: 4px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+}
