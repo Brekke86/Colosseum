@@ -7,13 +7,14 @@
  font-family:'PT Sans Narrow' ;
 }
 
-body{
+.frontpage{
     margin: none;
 }
 
 .frontpage-img{
     position: absolute;
     width: 100%;
+    
     
     
 
@@ -35,7 +36,7 @@ header{
     
 }
 
-main{
+.MainFront{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -44,7 +45,7 @@ main{
     
 }
 
-h1{
+.H1Colosseum{
     color:white;
     font-size: 180px;
     
@@ -52,12 +53,19 @@ h1{
 }
 
 h2{
-    color: rgb(202, 48, 48);
+    font-size: 50px;
+    color: white;
     
 }
 
 .get_started{
-    width: 100px;
+    color: white;
+    background-color: #ef6351;
+    border:none;
+    padding: 4px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 
@@ -71,3 +79,24 @@ h2{
     font-size: 16px;
     border-radius: 10px;
 }
+
+ .connect{
+    position: relative;
+    background-image:linear-gradient(white,black);
+    height: 800px;
+    margin-top: 200px;
+ }
+    
+ 
+    
+
+ 
+ .H1Connect{
+     position: relative;
+     color: rgb(112, 18, 18);
+     font-size: 50px;
+     display: flex;
+     justify-content: right;
+     margin-right: 100px;
+     margin-top: 200px;
+ }
